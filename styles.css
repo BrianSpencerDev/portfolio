@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+  background-color: #0f4c75;
+}
+
+nav{
+  background-color: #1b262c;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Intro Section */
+.intro{
+  background-image: url("images/laptop.jpg");
+  background-position: left;
+  background-size: cover;
+  color: #bbe1fa;
+  height: 500px;
+}
+
+.title-block{
+  background-color: #3282b8;
+  padding: 10px 25px;
+}
+
+/* About Section */
+.about{
+  background-color: #bbe1fa;
+}
