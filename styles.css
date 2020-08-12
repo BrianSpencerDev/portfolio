@@ -1,3 +1,7 @@
+body, html {
+  height: 100%;
+}
+
 body{
   text-align: center;
   background-color: #0f4c75;
@@ -12,16 +16,21 @@ h1 {
 }
 
 .container-fluid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 7% 15%;
+
 }
 
 /* Intro Section */
-.intro{
+#intro{
   background-image: url("images/laptop.jpg");
-  background-position: left;
+  height: 100%;
+  background-position: center;
   background-size: cover;
   color: #bbe1fa;
-  height: 500px;
 }
 
 .title-block{
@@ -29,7 +38,15 @@ h1 {
   padding: 10px 25px;
 }
 
-/* About Section */
+.btn-resume{
+  background-color: #0f4c75;
+  color: #bbe1fa;
+  margin: 24% 0;
+}
+
+/* Projects Section */
+
+/* Contact Section */
 .about{
   background-color: #bbe1fa;
 }
