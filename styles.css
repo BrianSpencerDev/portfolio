@@ -16,6 +16,15 @@ h1 {
   font-size: 6rem;
 }
 
+a{
+  color:#bbe1fa;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #0f4c75;
+}
+
 .container-fluid{
   padding: 7% 15%;
 }
@@ -49,6 +58,10 @@ h1 {
   border-color: #0f4c75;
   color: #bbe1fa;
   margin: 24% 0;
+}
+
+.socials{
+  font-size: 1.3rem;
 }
 
 @media only screen and (orientation: portrait) {
