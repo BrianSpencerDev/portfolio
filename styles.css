@@ -51,6 +51,12 @@ h1 {
   margin: 24% 0;
 }
 
+@media (max-width: 800px) {
+  #intro{
+    height: 60%;
+  }
+}
+
 /* Projects Section */
 .card{
   background-color: #3282b8;
