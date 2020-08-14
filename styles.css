@@ -55,8 +55,14 @@ h1 {
 .card{
   background-color: #3282b8;
   margin-bottom: 3%;
+  height: 100%;
 }
 /* Contact Section */
-.about{
-  background-color: #bbe1fa;
+#contact{
+  background-color: #3282b8;
+}
+
+.form-control{
+  width: 50%;
+  margin: auto;
 }

@@ -28,7 +28,7 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
        </div>
@@ -55,37 +55,37 @@
     <section id="projects">
       <div class="container-fluid">
         <h1 class="title">Projects</h1>
-        <div class="row">
-          <div class="col-6">
+        <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-2 row-cols-sm-1">
+          <div class="col mb-4">
             <div class="card">
-              <img src="images/laptop.jpg" class="card-img-top" alt="...">
+              <img src="images/tindog.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Tindog</h5>
                 <p class="card-text">A website for a fake Tinder clone for dogs.</p>
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col mb-4">
             <div class="card">
-              <img src="images/laptop.jpg" class="card-img-top" alt="...">
+              <img src="images/simon game.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Simon Game</h5>
                 <p class="card-text">A web app that is the game Simon.</p>
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col mb-4">
             <div class="card">
-              <img src="images/laptop.jpg" class="card-img-top" alt="...">
+              <img src="images/dice game.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Dice Game</h5>
                 <p class="card-text">Press a button to roll the dice and the player with the higher roll wins.</p>
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col mb-4">
             <div class="card">
-              <img src="images/laptop.jpg" class="card-img-top" alt="...">
+              <img src="images/personal page.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Personal Page</h5>
                 <p class="card-text">A webpage that could be used as about page.</p>
@@ -94,10 +94,31 @@
           </div>
         </div>
       </div>
+
+
+
+
     </section>
 
     <section id="contact">
-
+      <div class="container-fluid">
+        <h1 class="title">Contact Me</h1>
+        <form class="" action="mailto:brsj13@gmail.com" method="get" enctype="text/plain">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" name="subject" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea name="body" rows="8" cols="80" class="form-control"></textarea>
+          </div>
+          <button type="submit" name="button" class="btn btn-primary">Send</button>
+        </form>
+      </div>
     </section>
 
 
