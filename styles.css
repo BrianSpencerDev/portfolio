@@ -64,6 +64,10 @@ a:hover{
   font-size: 1.3rem;
 }
 
+.navbar-toggler-icon{
+  font-size: 1.8rem;
+}
+
 @media only screen and (orientation: portrait) {
   #intro{
     height: 60%;
