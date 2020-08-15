@@ -103,7 +103,7 @@ label{
   }
 
   #intro{
-    height: 60%;
+    height: 70%;
   }
 
   .navbar-brand, .navbar-toggler-icon {
@@ -116,6 +116,10 @@ label{
 
   .btn-primary{
     font-size: 3rem;
+  }
+
+  .resume{
+    margin-top: 48%;
   }
 
   .socials{
