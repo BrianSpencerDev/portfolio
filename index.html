@@ -42,7 +42,10 @@
           <p class="lead">Full Stack Web Developer</p>
         </div>
         <div class="resume">
-          <button type="button" name="resume" class="btn btn-primary btn-lg btn-resume">Resume</button>
+          <a href="images/BrianS-Resume.pdf" class="btn btn-primary btn-lg" download>
+            <!-- <button type="button" name="resume" class="btn btn-primary btn-lg btn-resume">Resume</button> -->
+            Resume
+          </a>
         </div>
         <div class="socials">
           <a href="https://github.com/BrianSpencerDev"><i class="fab fa-github-square fa-lg"></i></a>
@@ -133,20 +136,16 @@
     <section id="contact">
       <div class="container-fluid">
         <h1 class="title">Contact Me</h1>
-        <form class="" action="mailto:brsj13@gmail.com" method="get" enctype="text/plain">
+        <form action="https://formspree.io/xpzynnol" method="POST">
           <div class="form-group">
-            <label>Name</label>
-            <input type="text" name="name" class="form-control">
-          </div>
-          <div class="form-group">
-            <label>Subject</label>
-            <input type="text" name="subject" class="form-control">
+            <label>Email</label>
+            <input type="text" name="_replyto" class="form-control" placeholder="Example@email.com">
           </div>
           <div class="form-group">
             <label>Message</label>
-            <textarea name="body" rows="8" cols="80" class="form-control"></textarea>
+            <textarea name="message" rows="8" cols="80" class="form-control"></textarea>
           </div>
-          <button type="submit" name="button" class="btn btn-primary">Send</button>
+          <button type="submit" class="btn btn-primary btn-lg btn-send">Send</button>
         </form>
       </div>
     </section>

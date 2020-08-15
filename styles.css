@@ -25,6 +25,10 @@ a:hover{
   color: #0f4c75;
 }
 
+label{
+  font-size: 1.3rem;
+}
+
 .container-fluid{
   padding: 7% 15%;
 }
@@ -53,34 +57,28 @@ a:hover{
   padding: 10px 25px;
 }
 
-.btn-resume{
+.lead{
+  font-size: 1.4rem;
+}
+
+.resume{
+    margin: 12% 0 6%;
+}
+
+.btn-primary{
   background-color: #0f4c75;
   border-color: #0f4c75;
   color: #bbe1fa;
-  margin: 24% 0;
+}
+
+.btn-primary:hover{
+  background-color: #bbe1fa;
+  border-color: #bbe1fa;
+  color: #1b262c;
 }
 
 .socials{
   font-size: 1.3rem;
-}
-
-.navbar-toggler-icon{
-  font-size: 1.8rem;
-}
-
-@media only screen and (orientation: portrait) {
-  #intro{
-    height: 60%;
-  }
-
-  .btn-resume{
-    margin-top: 150px;
-    font-size: 3rem;
-  }
-
-  .socials{
-    font-size: 2.5rem;
-  }
 }
 
 /* Projects Section */
@@ -97,4 +95,35 @@ a:hover{
 .form-control{
   width: 50%;
   margin: auto;
+}
+
+@media only screen and (orientation: portrait) {
+  h5, label{
+    font-size: 2rem;
+  }
+
+  #intro{
+    height: 60%;
+  }
+
+  .navbar-brand, .navbar-toggler-icon {
+    font-size: 3rem;
+  }
+
+  .title-block{
+    margin-top: 10%;
+  }
+
+  .resume{
+    font-size: 3rem;
+  }
+
+  .socials{
+    font-size: 2.5rem;
+  }
+
+  .card-text, .btn-outline-light{
+    font-size: 1.4rem;
+  }
+
 }
