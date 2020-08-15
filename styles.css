@@ -1,5 +1,7 @@
 body, html {
   height: 100%;
+
+  font-family: 'Exo 2', sans-serif;
 }
 
 body{
@@ -14,6 +16,7 @@ nav{
 
 h1 {
   font-size: 6rem;
+  font-weight: 600;
 }
 
 a{
@@ -59,6 +62,8 @@ label{
 
 .lead{
   font-size: 1.4rem;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .resume{
@@ -71,7 +76,7 @@ label{
   color: #bbe1fa;
 }
 
-.btn-primary:hover{
+.btn-primary:hover, .btn-outline-light:hover{
   background-color: #bbe1fa;
   border-color: #bbe1fa;
   color: #1b262c;
@@ -82,10 +87,20 @@ label{
 }
 
 /* Projects Section */
+
+.btn-outline-light{
+  border-color: #bbe1fa;
+  color: #bbe1fa;
+}
+
 .card{
   background-color: #3282b8;
   margin-bottom: 3%;
   height: 100%;
+}
+
+.card-title{
+  font-weight: 600;
 }
 /* Contact Section */
 #contact{
