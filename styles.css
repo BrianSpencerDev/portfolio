@@ -110,6 +110,10 @@ label{
     margin-bottom: 8%;
   }
 
+  .nav-link{
+    font-size: 2.5rem;
+  }
+
 /* intro section */
   #intro{
     height: 70%;
